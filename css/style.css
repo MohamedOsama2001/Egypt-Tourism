@@ -1,0 +1,265 @@
+aside{
+    top: 200px;
+    right: 0;
+    position: fixed;
+    z-index: 10;
+}
+aside ul{
+    list-style-type: none;
+    text-align: center;
+}
+aside ul i{
+    width: 50px;
+    height: 50px;
+    background-color:#0d7ba3;
+    color:white;
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+aside ul i:hover{
+    background-color: #46cafa;
+}
+.carousel-caption{
+    background-color:rgba(182, 255, 250,0.5)
+}
+.carousel-caption .btn{
+    background-color: #46cafa;
+    color: white;
+}
+.carousel-caption .btn:hover{
+    background-color: #46cafa;
+    color: white;
+}
+.welcome{
+    background-color:#2ab1e2;
+}
+.welcome h3{
+    background: -webkit-linear-gradient(purple,rgb(4, 99, 99));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.accordion-button{
+    background: -webkit-linear-gradient(purple,rgb(4, 99, 99));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.translate .translate-head{
+    background-color:#0d7ba3 ;
+    text-align: center;
+    color: white;
+}
+.translate-head h2{
+    font-size: 40px;
+}
+.translate .translate-body{
+    background-color: #46cafa;
+}
+.photo
+{
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/photo.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.destinations .destinations-head{
+    background-color: #0d7ba3;
+    text-align: center;
+}
+.destinations-head h2{
+    font-size: 40px;
+    background:-webkit-linear-gradient(purple,rgb(4, 99, 99));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.destinations .card img{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+.destinations .card .card-body{
+    color: #2ab1e2;
+}
+.destinations .card{
+    position: relative;
+}
+.destinations .card::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.destinations .card:hover::after{
+    width: 100%;
+    height: 100%;
+    background-color: #2ab1e2;
+    opacity: 0.2;
+}
+.destinations .card::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    transition: 1.5s;
+}
+.destinations .card:hover::before{
+    width: 100%;
+    height: 100%;
+    background-color: #2ab1e2;
+    opacity: 0.2;
+}
+.image
+{
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/fayim.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.thanks .thanks-head{
+    background-color: #0d7ba3;
+    color: purple;
+    text-align: center;
+}
+.thanks-head h2{
+    font-size: 40px;
+    background: -webkit-linear-gradient(purple,rgb(4, 99, 99));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.thanks-item{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/mohamed.JPG.jfif);
+    background-size: cover;
+    position: relative;
+    transition: 0.5;
+}
+.thanks-item-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.thanks-item:hover{
+    transform: scale(0.9);
+}
+.thanks-item:hover .thanks-item-overlay{
+    background-color: rgb(42, 177, 226,0.5);
+}
+.news .news-head{
+    color: purple;
+    text-align: center;
+}
+.news-head h2{
+    font-size: 40px;
+    background: -webkit-linear-gradient(purple,rgb(4, 99, 99));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.joinUs .joinUs-head{
+    color: purple;
+    text-align: center;
+}
+.joinUs-head h2{
+    font-size: 40px;
+    background: -webkit-linear-gradient(purple,rgb(4, 99, 99));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.joinUs-item .card{
+    text-align: center;
+    color: #2ab1e2;
+    margin-bottom: 20px;
+    box-shadow:2px 2px 20px purple;
+}
+.joinUs-item .card i{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    margin: auto;
+    line-height: 70px;
+    font-size: 40px;
+}
+.footer{
+    background-color: #2ab1e2;
+    text-align: center;
+}
+.footer-item-head{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+.footer-item-head img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline;
+
+}
+.footer-item-head h3{
+    display: inline;
+    color: white;
+}
+.footer-item-body ul{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+}
+.copyRight{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.copyRight h4{
+    color: purple;
+    background: -webkit-linear-gradient(purple,rgb(4, 99, 99));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.impLinks ul a{
+    color:rgb(3, 46, 46);
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.impLinks ul a:hover{
+    color: white;
+}
+.news-item{
+    background-color: aliceblue;
+    box-shadow:2px 2px 20px purple;
+}
+.line{
+    width: 100px;
+}
+.news-item:hover .line{
+    width: 200px;
+    transition: 1s;
+}
+.news-item button{
+    background-color: gray;
+    border: none;
+
+}
+.news-item-buttons button:nth-child(3):hover{
+    background-color:#2ab1e2;
+}
+.news-item-buttons1 button:nth-child(3):hover{
+    background-color:red;
+}
+.news-item-buttons2 button:nth-child(3):hover{
+    background-color:rgb(11, 204, 11);
+}
+.news-item-buttons3 button:nth-child(3):hover{
+    background-color:yellow;
+}
